@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="#">H o m e</a>
+            <a href="#">O r d e r</a>
+            <a href="#">F o o d</a>
+            <a href="#">R e s t a u r a n t</a>
+            <a href="#">T e s t i m o n i a l s</a>
+            <a href="#">C o n t a c t U s</a>
+            <img width="3%" src="./Images/menu-bar.png" alt="">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <div class="Head">
+        <div class="head1">
+            <h1>L O R E M     I P S U M</h1>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                Sed pulvinar, massa ac porta viverra.</h6>
+           <button>Click Me</button>
+
+        </div>
+        <div class="head2">
+            <img src="./Images/pexels-robin-stickel-70497.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="Head2">
+        <div class="haed3" >
+            <img src="./Images/pexels-rachel-claire-6752433.jpg" alt="">
+            <img src="./Images/pexels-eva-bronzini-6141651.jpg" alt="">
+            <img src="./Images/pexels-mister-mister-3434523.jpg" alt="">
+        </div>
+         <div class="haed4">
+            <div class="box">
+                <h4>LOREM IPSUM</h4>
+                <h1>LOREM IPSUM SET ADEMIR</h1>
+                <div class="arrow">
+                    <h6>Click</h6>
+                    <img src="./Images/icons8-arrow-30.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
