@@ -2,7 +2,7 @@
 
 
 
-[website Url--](https://fluxform-signup.netlify.app/)
+[website Url--](https://simplotelpvtd.netlify.app/)
 
 ## Tech Stack
 **Client:** html, css
@@ -22,7 +22,7 @@ https://github.com/Neelachari/Simplotel
 ## Support
 For support, email -neelachari34@gmail.com 
 
-For Go to the website click the link:-[https://legendary-monstera-f8fb81.netlify.app/](https://fluxform-signup.netlify.app/)
+For Go to the website click the link:-[simplotel](https://simplotelpvtd.netlify.app/)
 
 GitHub Link:https://github.com/Neelachari/Simplotel
 ## Screenshots
